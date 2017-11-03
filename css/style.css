@@ -128,7 +128,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 }
 /*--//top-nav--*/
 /*--about--*/
-.about,.work,.education,.skills,.portfolio,.contact{
+.about,.work,.education,.skills,.portfolio,.contact, .articles {
 	padding:6em 0;
 }
 h3.title {
@@ -1527,4 +1527,32 @@ h3.title {
   font-weight: 700;
   src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url(https://fonts.gstatic.com/s/robotocondensed/v13/mg0cGfGRUERshzBlvqxeAD80_Kjvv-UM5FLsk7nHpemglnMp3_3A8V8Ai8YosRtX.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+#articles {
+    padding-bottom: 24em;
+}
+#articles .grid {
+    border: 1px solid #e8e2e2;
+    border-radius: 5px;
+    background: none;
+}
+#articles .grid p {
+    color: #585252;
+    letter-spacing: 1px;
+    padding: 14px;
+    transform: none;
+    opacity: 1;
+}
+.education {
+    background-color: #000;
+}
+.education .work-info h5 {
+    color: #F7E612;
+}
+#courses {
+    padding-bottom: 6em;
+    padding-top: 3em;
+}
+#courses .portfolio-grids {
+    height: 432px;
 }
